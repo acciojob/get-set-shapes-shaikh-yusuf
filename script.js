@@ -2,23 +2,23 @@
 class Rectangle {
 	constructor(width,height)
 	{
-		width=this.width;
-		height=this.height;
+		this.width_2=width;
+		this.height_2=height;
 	}
 	get width(){
-		return this.width
+		return this.width_2
 	}
 
 	get height(){
-		return this.height
+		return this.height_2
 	}
 	getArea(){
-		return this.width*this.height
+		return this.width_2*this.height_2
 	}
 }
 
 class Square extends Rectangle {
-	return 4*this.width
+	return 4*this.width_2
 	
 }
 
