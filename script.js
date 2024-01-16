@@ -18,9 +18,9 @@ class Rectangle {
 }
 
 class Square extends Rectangle {
-	constructor(width, height)
+	constructor(side)
 	{
-		super(width ,height)
+		super(side)
 	}
 	getPerimeter(){
 	return 4*this.width2
